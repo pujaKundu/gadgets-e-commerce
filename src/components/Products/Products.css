@@ -1,0 +1,19 @@
+.product{
+    display: flex;
+}
+.product-info{
+    margin-left: 2%;
+}
+.product-name{
+    color: rgb(25, 25, 129);
+    font-weight: 700;
+}
+.purchase-btn{
+    background-image: linear-gradient(to bottom, rgb(69, 162, 199),rgb(127, 218, 218));
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    width: 200px;
+    font-weight: 700;
+    border-radius: 4px;
+}
