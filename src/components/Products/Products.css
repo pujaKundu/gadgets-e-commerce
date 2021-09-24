@@ -7,6 +7,7 @@
 .product-name{
     color: rgb(25, 25, 129);
     font-weight: 700;
+    font-size: 18px;
 }
 .purchase-btn{
     background-image: linear-gradient(to bottom, rgb(69, 162, 199),rgb(127, 218, 218));
