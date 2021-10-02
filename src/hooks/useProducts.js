@@ -9,7 +9,8 @@ const useProducts = () => {
       .then((data) => setProducts(data));
   }, []);
   //return necessary things
-  return [products];
+  //we can return multiple things that's why we return them in a array
+  return [products, setProducts];
 };
 
 export default useProducts;
