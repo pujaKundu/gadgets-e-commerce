@@ -8,8 +8,8 @@ import NotFound from "./components/NotFound/NotFound";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path="/">
             <Shop></Shop>
